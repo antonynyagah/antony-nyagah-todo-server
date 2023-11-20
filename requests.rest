@@ -1,0 +1,22 @@
+GET http://localhost:3001/todos
+
+
+######
+
+POST http://localhost:3001/todo/new
+Content-Type: application/json
+
+{
+
+    "text": "get the money"
+}
+
+
+###
+
+DELETE  http://localhost:3001/todo/delete/654e4cf9165051e7074ac3eb
+
+
+###
+
+PUT  http://localhost:3001/todo/complete/654e4e7f8fb4ff409a11118f
